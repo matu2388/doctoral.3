@@ -1,4 +1,4 @@
-import { marker } from 'leaflet';
+import L from "https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet-src.esm.js";
 import { sitios } from './assets/data/markers/sitios';
 
 document.addEventListener("DOMContentLoaded", function() {
