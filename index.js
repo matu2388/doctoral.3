@@ -1,5 +1,5 @@
 import { marker } from 'leaflet';
-import { sitios } from './data/markers/sitios.js';
+import { sitios } from './assets/data/markers/sitios';
 
 document.addEventListener("DOMContentLoaded", function() {
     const mymap = new L.Map('map').setView([0, 0], 13);
